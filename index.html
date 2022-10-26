@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="rxWorld">
+
+        <section class="rnOuter ">
+
+            <section class="aoTable">
+
+                <button type="button" id="button-id" class="launch-button" onclick="document.getElementById('id1').style.transformOrigin='-120% top';document.getElementById('id1').style.transform='scaleX(0)';myFunction()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>LAUNCH</button>
+                <div class="ag-spotlight-moving_box">
+                    <div class="ag-spotlight-moving_spotlight ag-spotlight-moving_spotlight-right"></div>
+                    <div class="ag-spotlight-moving_spotlight ag-spotlight-moving_spotlight-left"></div>
+
+                </div>
+                <!-- <h1><center>Epsilon Pi</center></h1> -->
+                <div class="img">
+                    <center>
+                        <a href='https://epsilonpi.club/'><img src="DSC logo.png" style="margin:150px"></a>
+                    </center>
+                </div>
+                <!-- <center><img src="EpsilonPi Logo White.png" width="800" height="900"></center>  -->
+                <canvas id="birthday"></canvas>
+
+
+            </section>
+
+            <div class='rnInner' id='id1'>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+                <div class='rnUnit'></div>
+            </div>
+
+
+        </section>
+
+    </div>
+
+
+    <script src="fireworks.js">
+    </script>
+    <script>
+        function remove_btn() {
+            var myobj = document.getElementById("button-id");
+            myobj.remove();
+        }
+
+        function myFunction() {
+            setTimeout(remove_btn, 100);
+        }
+    </script>
+</body>
+
+</html>
